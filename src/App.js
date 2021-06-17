@@ -204,10 +204,12 @@ const Container5 = () =>
 
 function App() {
     return (
-      <div className="App">
-        <Header />
-        <Main />
-        <Footer />
+        <div className="App">
+            <div class="wrapper">
+                <Header />
+                <Main />
+                <Footer />
+            </div>
       </div>
     );
   }
